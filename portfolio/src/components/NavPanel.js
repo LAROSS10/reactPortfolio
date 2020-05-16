@@ -20,10 +20,10 @@ function Navbar() {
                 </Header>
                 <Drawer title="Title">
                     <Navigation>
-                        <a href='/'>Link</a>
-                        <a href='/'>Link</a>
-                        <a href='/'>Link</a>
-                        <a href='/'>Link</a>
+                        <Link to='/aboutMe'>About Me</Link>
+                        <Link to='/resume'>Resume</Link>
+                        <Link to='/projects'>Projects</Link>
+                        <Link to='/'>Portfolio</Link>
                     </Navigation>
                 </Drawer>
                 <Content />
